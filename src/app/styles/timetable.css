@@ -1,0 +1,23 @@
+.container {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+ .container {
+    padding-block: 3rem;
+    border-bottom: 1px solid slategray;
+} 
+
+.p-9 h2 {
+    font-size: 1.5rem;
+}
+.p-9 h3 {
+    font-weight: 600;
+    text-decoration-line: underline;
+    text-decoration-color: rgb(118, 118, 242);
+    text-decoration-thickness: 2px;
+} 

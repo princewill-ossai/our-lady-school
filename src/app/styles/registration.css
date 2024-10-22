@@ -1,0 +1,60 @@
+button {
+  background-color: rgb(74, 74, 115);
+  display: flex;
+  align-items: center;
+  padding: 0.8em 2em;
+  gap: 0.7rem;
+  color: white;
+  font-weight: 700;
+  border-radius: 10px;
+}
+
+.body {
+    display: flex;
+    padding: 4rem;
+    justify-content: center;
+    gap: 3rem;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    border-bottom: 1px solid slategray;
+}
+
+.container p {
+    padding-bottom: 2.5rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.btns {
+  display: flex;
+  gap: 3rem;
+}
+
+.btns button:nth-child(2) {
+  background-color: rgb(22, 160, 45) !important;
+}
+
+.card {
+  background-color: rgb(79, 125, 142);
+  padding-inline: 2rem;
+  height: 14rem;
+  width: 29rem;
+  color: white;
+  padding-block: 2rem;
+  border-radius: 1rem;
+}
+
+.card ul {
+    display: block;
+    list-style: disc;
+}
+
+h3 {
+    padding-bottom: 1rem;
+    font-size: 1.3rem;
+}
+
+.container h2 {
+    padding-block: 1rem;
+    font-size: 1.6rem;
+}

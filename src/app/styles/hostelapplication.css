@@ -1,0 +1,22 @@
+.bg-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://res.cloudinary.com/dgpuu4bhh/image/upload/v1729300228/ee1hkbwfmoz1bazfw3qx.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 18rem;
+}
+
+.content-div {
+    padding: 5rem 4rem;
+    border-bottom: 2px solid slategray;
+}
+
+.content-div p {
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+
+h3 {
+    font-size: 1.7rem;
+    font-weight: 700;
+    padding-bottom: 2rem;
+}

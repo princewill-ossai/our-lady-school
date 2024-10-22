@@ -1,0 +1,23 @@
+.container {
+    width: 100%;
+    padding-inline: 8rem;
+    margin-block: 6rem;
+}
+
+.container img {
+    width: 100%;
+}
+
+.table-heading {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(74, 74, 106);
+  height: 4rem;
+  align-items: center;
+  padding-inline: 2rem;
+}
+
+.table-heading p {
+  color: white !important;
+  width: 8rem;
+}

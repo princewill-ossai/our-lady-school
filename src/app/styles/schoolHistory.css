@@ -1,0 +1,18 @@
+.bg-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://res.cloudinary.com/dgpuu4bhh/image/upload/v1729300228/ee1hkbwfmoz1bazfw3qx.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 18rem;
+}
+
+.histroy-text {
+    padding-inline: 4rem;
+    margin-block: 4rem;
+    border-bottom: 2px solid slategray;
+}
+
+.histroy-text p {
+    margin-bottom: 2rem;
+    font-size: 1.3rem;
+    font-weight: 500;
+}

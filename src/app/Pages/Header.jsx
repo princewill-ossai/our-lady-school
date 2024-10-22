@@ -1,5 +1,5 @@
+import Image from "next/image";
 import "../styles/header.css";
-import logo from "../assets/images/logo.png";
 
 const Header = () => {
   return (
@@ -23,9 +23,15 @@ const Header = () => {
           </li>
         </ul>
         <div className="nav bg-slate-600 text-white">
-          <img src={logo} alt="Logo" />
+          <img
+            src="https://res.cloudinary.com/dgpuu4bhh/image/upload/v1729259391/tup63k7q3dslqnpei3iy.png"
+            alt=""
+            width="70"
+          />
           <div className="shcoolName">
-            <h2 className="px-3">OUR LADY <br /> SECONDARY SCHOOL, YABA</h2>
+            <h2 className="px-3">
+              OUR LADY <br /> SECONDARY SCHOOL, YABA
+            </h2>
           </div>
           <div>
             <ul className="justify-center gap-16 px-11">
@@ -57,13 +63,7 @@ const Header = () => {
           </div>
         </div>
       </div>
-      <section>
-        <div className="hero-section">
-          <div>
-            <img src={logo} alt="" />
-          </div>
-        </div>
-      </section>
+      
     </>
   );
 };

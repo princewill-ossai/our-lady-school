@@ -1,0 +1,40 @@
+.bg-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://res.cloudinary.com/dgpuu4bhh/image/upload/v1729300228/ee1hkbwfmoz1bazfw3qx.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 18rem;
+}
+
+.anthem-div {
+    background-color: rgb(51, 171, 211);
+    margin-top: 0.4rem;
+    padding-inline: 26rem;
+    text-align: center;
+    line-height: 2;
+    font-size: 1.4rem;
+    padding-block: 5rem;
+}
+
+.anthem-div p {
+    color: white;
+    font-weight: 500;
+    padding-bottom: 3rem;
+}
+
+h3 {
+    font-weight: 800;
+    color: white;
+}
+
+.song-b {
+    position: absolute;
+    top: 40rem;
+    z-index: 10000;
+    left: 4rem;
+}
+.song-a {
+    position: absolute;
+    top: 40rem;
+    z-index: 10000;
+    right: 4rem;
+}

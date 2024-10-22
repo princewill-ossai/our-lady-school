@@ -1,5 +1,6 @@
 ul {
   display: flex;
+  flex-wrap: wrap;
   height: 2.5rem;
   align-items: center;
   font-weight: 700;
@@ -9,6 +10,7 @@ ul {
   width: 100%;
   height: 4rem;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
 }
 
@@ -24,11 +26,124 @@ ul {
 }
 
 .hero-section {
-    background-image: url(../assets/images/school-building.avif);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 40rem;
-    margin-bottom: 3rem;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(https://res.cloudinary.com/dgpuu4bhh/image/upload/v1729259459/bcbtu8h5esiow8udjg3p.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 40rem;
+  /* filter: brightness(70%); */
+}
+
+.hero-logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10rem;
+  text-align: center;
+}
+
+.hero-logo img {
+  opacity: 1 !important;
+}
+
+.description {
+  background-color: rgb(51, 171, 211);
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+  padding-block: 2rem;
+  padding-inline: 10rem;
+  text-align: center;
+}
+
+.about-school {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3rem;
+  font-weight: 700;
+}
+
+.about-school h2 {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding-block: 1.2rem;
+}
+
+.top-desc-color + div {
+  padding-inline: 2rem;
+}
+
+.about-school div {
+  width: 19rem;
+  height: 23rem;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.top-desc-color {
+  padding-top: 1rem !important;
+  width: 100% !important;
+  background-color: brown !important;
+  height: 1rem !important;
+}
+
+.about-school button {
+  background-color: brown;
+  color: #fff;
+  padding: 0.2em 1.3em;
+  width: 11rem;
+  margin-top: 1.8rem;
+  margin-inline: 2rem;
+}
+
+.box-2 button {
+  margin-top: 0.5rem;
+  background-color: rgb(234, 172, 26);
+}
+
+.box-3 button {
+  margin-top: 11rem;
+  background-color: rgb(234, 172, 26);
+}
+
+.color-b {
+  background-color: rgb(234, 172, 26) !important;
+}
+
+.color-c {
+  background-color: rgb(138, 216, 19) !important;
+}
+
+.jamb-top-score img {
+  margin: auto;
+}
+
+.jamb-top-score div {
+  width: 100%;
+  height: 5rem;
+}
+
+.recent-news {
+  width: 100%;
+  background-color: rgb(55, 176, 251);
+  padding: 3rem;
+  display: grid;
+  grid-template-columns: repeat(3, 250px);
+  gap: 4rem;
+  place-content: center;
+}
+
+.recent-news div {
+  background-color: #fff;
+  width: 18rem;
+  padding: 1.4rem 0.8rem;
+}
+
+span {
+  font-size: 0.7rem;
+  font-weight: 900;
 }
