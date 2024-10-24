@@ -6,7 +6,7 @@ const LoginForm = () => {
   return (
     <div>
       <Header />
-      <form>
+      <form className='sm:w-80'>
         <h1>Log In</h1>
         <div>
           Login for this site is easy. Just fill in the fields below, and we'll

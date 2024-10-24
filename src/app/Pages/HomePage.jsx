@@ -1,9 +1,12 @@
-import Link from 'next/link'
-import '../styles/header.css'
+import Link from "next/link";
+import "../styles/header.css";
+import Header from "./Header";
+import Footer from "./Footer";
 
 const index = () => {
   return (
     <>
+    <Header/>
       <section>
         <div className="hero-section">
           <div className="hero-logo">
@@ -36,12 +39,14 @@ const index = () => {
                 when the Catholic Mission realised the need to establish a
                 girl’s Secondary School on the Mainland area of Lagos. 
               </p>
-              <Link legacyBehavior href='SchoolHistory.jsx'><button>Learn More &rarr;</button></Link>
+              <Link legacyBehavior href="SchoolHistory.jsx">
+                <button>Learn More &rarr;</button>
+              </Link>
             </div>
           </div>
           <div>
             <div className="top-desc-color color-b"></div>
-            <div className='box-2'>
+            <div className="box-2">
               <h2>Admission</h2>
               <p>
                 Admission forms into OLASS, Yaba,  as a “fresh
@@ -55,7 +60,7 @@ const index = () => {
           </div>
           <div>
             <div className="top-desc-color color-c"></div>
-            <div className='box-3'>
+            <div className="box-3">
               <h2>PTA Forum</h2>
               <p>
                 Parents are advised to join the telegram group for more updates 
@@ -64,64 +69,108 @@ const index = () => {
             </div>
           </div>
         </div>
-        <div className='jamb-top-score'>
-          <div className='bg-gray-100'>
-          </div>
-          <img src="https://res.cloudinary.com/dgpuu4bhh/image/upload/v1729258359/jpm6nmqlrh2oaermw1o0.png" alt='2024 JAMB top scores' width='1000' />
+        <div className="jamb-top-score">
+          <div className="bg-gray-100"></div>
+          <img
+            src="https://res.cloudinary.com/dgpuu4bhh/image/upload/v1729258359/jpm6nmqlrh2oaermw1o0.png"
+            alt="2024 JAMB top scores"
+            width="1000"
+          />
         </div>
-        <div className='recent-news'>
+        <div className="recent-news sm:grid-cols-1 gap-5 md:grid-cols-2 xl:grid-cols-3">
           <div>
-            <span><i>o4.24.25</i></span>
-            <h3 className='font-extrabold'>OLASS ACHIEVERS</h3>
-            <p className='font-bold text-slate-400 text-sm py-4'>
-            The 2023/2024 JOINT ADMISSIONS AND MATRICULATION BOARD (JAMB) Examination View Below the List of Extraordinary Performances of Our Students and be Proud of OLASS, Yaba 
+            <span>
+              <i>o4.24.25</i>
+            </span>
+            <h3 className="font-extrabold">OLASS ACHIEVERS</h3>
+            <p className="font-bold text-slate-400 text-sm py-4">
+              The 2023/2024 JOINT ADMISSIONS AND MATRICULATION BOARD
+              (JAMB) Examination View Below the List of Extraordinary
+              Performances of Our Students and be Proud of OLASS, Yaba
             </p>
-            <a className='font-extrabold text-slate-600 text-sm cursor-pointer'>Read More &rarr;</a>
+            <a className="font-extrabold text-slate-600 text-sm cursor-pointer">
+              Read More &rarr;
+            </a>
           </div>
           <div>
-            <span><i>o4.24.25</i></span>
-            <h3 className='font-extrabold'>SUPPLEMENTARY INTERVIEW EXAMINATION</h3>
-            <p className='font-bold text-slate-400 text-sm py-4'>
-            List of successfull candidates for the supplementary interview examination into JSS ONE 2024/2025 ACADEMIC SESSION 
+            <span>
+              <i>o4.24.25</i>
+            </span>
+            <h3 className="font-extrabold">
+              SUPPLEMENTARY INTERVIEW EXAMINATION
+            </h3>
+            <p className="font-bold text-slate-400 text-sm py-4">
+              List of successfull candidates for the supplementary interview
+              examination into JSS ONE 2024/2025 ACADEMIC SESSION
             </p>
-            <a className='font-extrabold text-slate-600 text-sm cursor-pointer'>Read More &rarr;</a>
+            <a className="font-extrabold text-slate-600 text-sm cursor-pointer">
+              Read More &rarr;
+            </a>
           </div>
           <div>
-            <span><i>o4.24.25</i></span>
-            <h3 className='font-extrabold'>SUPPLEMENTARY COMMON ENTRANCE EXAMINATION</h3>
-            <p className='font-bold text-slate-400 text-sm py-4'>
-            List of successful candidates for the supplementary common entrance examination held on Saturday 
+            <span>
+              <i>o4.24.25</i>
+            </span>
+            <h3 className="font-extrabold">
+              SUPPLEMENTARY COMMON ENTRANCE EXAMINATION
+            </h3>
+            <p className="font-bold text-slate-400 text-sm py-4">
+              List of successful candidates for the supplementary common
+              entrance examination held on Saturday
             </p>
-            <a className='font-extrabold text-slate-600 text-sm cursor-pointer'>Read More &rarr;</a>
+            <a className="font-extrabold text-slate-600 text-sm cursor-pointer">
+              Read More &rarr;
+            </a>
           </div>
           <div>
-            <span><i>o4.24.25</i></span>
-            <h3 className='font-extrabold'>OLASS ACHIEVERS</h3>
-            <p className='font-bold text-slate-400 text-sm py-4'>
-            The 2023/2024 JOINT ADMISSIONS AND MATRICULATION BOARD (JAMB) Examination View Below the List of Extraordinary Performances of Our Students and be Proud of OLASS, Yaba 
+            <span>
+              <i>o4.24.25</i>
+            </span>
+            <h3 className="font-extrabold">OLASS ACHIEVERS</h3>
+            <p className="font-bold text-slate-400 text-sm py-4">
+              The 2023/2024 JOINT ADMISSIONS AND MATRICULATION BOARD
+              (JAMB) Examination View Below the List of Extraordinary
+              Performances of Our Students and be Proud of OLASS, Yaba
             </p>
-            <a className='font-extrabold text-slate-600 text-sm cursor-pointer'>Read More &rarr;</a>
+            <a className="font-extrabold text-slate-600 text-sm cursor-pointer">
+              Read More &rarr;
+            </a>
           </div>
           <div>
-            <span><i>o4.24.25</i></span>
-            <h3 className='font-extrabold'>SUPPLEMENTARY COMMON ENTRANCE EXAMINATION</h3>
-            <p className='font-bold text-slate-400 text-sm py-4'>
-            List of successfull candidates for the supplementary interview examination into JSS ONE 2024/2025 ACADEMIC SESSION 
+            <span>
+              <i>o4.24.25</i>
+            </span>
+            <h3 className="font-extrabold">
+              SUPPLEMENTARY COMMON ENTRANCE EXAMINATION
+            </h3>
+            <p className="font-bold text-slate-400 text-sm py-4">
+              List of successfull candidates for the supplementary interview
+              examination into JSS ONE 2024/2025 ACADEMIC SESSION
             </p>
-            <a className='font-extrabold text-slate-600 text-sm cursor-pointer'>Read More &rarr;</a>
+            <a className="font-extrabold text-slate-600 text-sm cursor-pointer">
+              Read More &rarr;
+            </a>
           </div>
           <div>
-            <span><i>o4.24.25</i></span>
-            <h3 className='font-extrabold'>SUPPLEMENTARY INTERVIEW EXAMINATION</h3>
-            <p className='font-bold text-slate-400 text-sm py-4'>
-            List of successfull candidates for the supplementary interview examination into JSS ONE 2024/2025 ACADEMIC SESSION 
+            <span>
+              <i>o4.24.25</i>
+            </span>
+            <h3 className="font-extrabold">
+              SUPPLEMENTARY INTERVIEW EXAMINATION
+            </h3>
+            <p className="font-bold text-slate-400 text-sm py-4">
+              List of successfull candidates for the supplementary interview
+              examination into JSS ONE 2024/2025 ACADEMIC SESSION
             </p>
-            <a className='font-extrabold text-slate-600 text-sm cursor-pointer'>Read More &rarr;</a>
+            <a className="font-extrabold text-slate-600 text-sm cursor-pointer">
+              Read More &rarr;
+            </a>
           </div>
         </div>
       </section>
+      <Footer/>
     </>
-  )
-}
+  );
+};
 
-export default index
+export default index;

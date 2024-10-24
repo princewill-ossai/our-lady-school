@@ -29,8 +29,8 @@ const Header = () => {
             width="70"
           />
           <div className="shcoolName">
-            <h2 className="px-3">
-              OUR LADY <br /> SECONDARY SCHOOL, YABA
+            <h2 className="px-1">
+              OUR LADY SECONDARY SCHOOL, YABA
             </h2>
           </div>
           <div>

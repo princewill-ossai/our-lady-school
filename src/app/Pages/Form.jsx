@@ -7,7 +7,7 @@ const Form = () => {
   return (
     <div>
       <Header />
-      <form>
+      <form className='sm:w-96'>
         <h1>Create an Account</h1>
         <div>
           Registering for this site is easy. Just fill in the fields below, and
